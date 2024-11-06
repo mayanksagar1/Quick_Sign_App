@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: fit-content;
+  margin: 50px auto;
+}
+.top-controls,
+.bottom-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.top-controls div {
+  padding: 10px;
+}
+.top-controls div input,
+select {
+  width: 200px;
+  margin-top: 10px;
+}
+.bottom-controls button {
+  width: 200px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+#clear-btn {
+  background-color: rgb(220, 43, 43);
+  color: white;
+}
+#save-btn {
+  background-color: rgb(36, 209, 36);
+  color: white;
+}
+#retrieve-btn {
+  background-color: rgb(230, 185, 8);
+}
+#myCanvas {
+  margin: auto;
+  border: 2px solid black;
+}
